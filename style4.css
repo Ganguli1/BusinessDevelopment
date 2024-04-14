@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#F8F9F9;
+	font-family: sans-serif;
+	background: radial-gradient(at top left, white, #e6e6ff);
+}
+.first-text{
+	text-align: center;
+	font-size:80px;
+	color: #00004d;
+	font-family: "Abril Fatface", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.info{
+	font-family: Segoe UI Emoji;
+	text-align: left;
+	font-size: 17px;
+	padding-top: 10px;
+	padding-left:50px;
+	padding-right: 50px;	
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.logo{
+	width:80px;
+	height:80px;
+	margin-top:5px;
+	cursor: pointer;
+}
+.menu-bar{
+	letter-spacing:2px;
+	font-size: 14px;
+	background: #0A0A12;
+	width:90%;
+	height:80px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 5%;
+}
+.menu-bar ul{
+	list-style: none;
+	display: flex;
+}
+.menu-bar ul li{
+	padding: 20px 30px;
+	position: relative;
+}
+.menu-bar ul li a{
+	color:#fff;
+	font-size:18px;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+.menu-bar ul li a:hover{
+	color: #ABB2B9  ;
+}
+.drop-down{
+	display: none;
+	z-index:1;
+}
+.menu-bar ul li:hover .drop-down{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	margin: center;
+	background: #0A0A12;
+}
+.drop-down ul{
+	display: block;
+}
+.drop-down ul li{
+	width: 150px;
+	padding: 10px;
+}
+
+footer{
+	width: 100%;
+	background: linear-gradient(to right,#000303,#17202A);
+	color: #fff;
+	padding: 20px 0 1px;
+	font-size:13px;
+	line-height:18px;
+}
+.row{
+	width:85%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.col{
+	flex-basis: 25%;
+	padding: 10px;
+}
+.col:nth-child(2), .col:nth-child(3){
+	flex-basis: 15%;
+}
+ul li{
+	list-style: none;
+	margin-bottom: 12px;
+	text-align:left;
+}
+ul li a{
+	text-decoration: none;
+	color:#fff;
+}
+.social-icon .fab{
+	width: 30px;
+	height:30px;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	color:#000;
+	background: #fff;
+	margin-right: 15px;
+	cursor: pointer;
+}
+hr{
+	width: 90%;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	margin: 20px auto;
+}
+.copyright{
+	text-align: center;
+}
